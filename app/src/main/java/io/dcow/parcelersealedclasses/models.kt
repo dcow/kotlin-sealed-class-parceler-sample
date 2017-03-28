@@ -10,13 +10,13 @@ import org.parceler.*
 /**
  * Some application data to save.
  */
-@Parcel //(converter = ScreenConverter::class) // uncomment to make it work
+@Parcel
 data class Data @ParcelConstructor constructor(@ParcelProperty("screen") val screen: Screen)
 
 /**
  * Demo of a sealed class model type.
  */
-@Parcel
+@Parcel//(converter = ScreenConverter::class) // uncomment to make it work
 sealed class Screen
 {
     @Parcel
