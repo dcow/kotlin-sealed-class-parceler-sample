@@ -9,3 +9,7 @@ converter needs to be supported. Can we do better?
 2. Turn on the `Don't keep activities` option in the Developer settings.
 3. Toggle the recent applications menu and navigate back: app should crash.
 4. Specify a custom converter (included) for the Data class: no crash.
+
+## Discussion
+
+https://github.com/johncarl81/parceler/issues/274
